@@ -1,0 +1,16 @@
+.quotes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  
+}
+
+.quote {
+  padding: 1em;
+  border: 2px solid black;
+  margin: .5em;
+  flex-basis: 25%;
+  text-align: center;
+  background-color: white;
+  color: black;
+}

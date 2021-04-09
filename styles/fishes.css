@@ -1,0 +1,33 @@
+.fishes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.fish {
+  padding: 1em;
+  border: 2px solid black;
+  margin: .5em;
+  background-color: white;
+  color: black;
+}
+
+.fish__name {
+  text-align: center;
+  padding-bottom: .25em;
+}
+.fish__species {
+  text-align: center;
+}
+.fish__length {
+  text-align: center;
+}
+.fish__location {
+  text-align: center;
+}
+.fish__food {
+  text-align: center;
+}
+
+.fish__image {
+  width: 15em;
+}

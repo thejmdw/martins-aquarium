@@ -2,3 +2,38 @@
 @import "./tips.css";
 @import "./quotes.css";
 @import "./locations.css";
+
+html {
+  background-image: url(https://garibaldicharters.com/wp-content/uploads/2016/07/water-background.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+
+body {
+  margin: 0px;
+  font-family: 'Roboto', sans-serif;
+  
+}
+
+.header {
+  text-align: center;
+  padding: 1em;
+}
+.section__title {
+  text-align: center;
+}
+
+.container {
+  display: flex;
+
+}
+
+.flex-container-left {
+  flex: 3;
+}
+
+
+.border {
+  border: 1px solid black
+}

@@ -1,0 +1,25 @@
+.locations {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.location {
+  padding: 1em;
+  border: 2px solid black;
+  margin: .5em;
+  background-color: white;
+  color: black;
+}
+
+.location__image {
+  width: 15em;
+}
+
+.location__name {
+  text-align: center;
+}
+
+.location__fish-harvested {
+  text-align: center;
+}
