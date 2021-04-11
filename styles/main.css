@@ -21,7 +21,19 @@ body {
   padding: 1em;
 }
 .section__title {
+  background-color: white;
+  border-radius: .5em;
+  display: block;
   text-align: center;
+  margin: auto;
+  border: 2px solid black;
+}
+.article__title {
+  width: 15em;
+}
+.aside__title {
+  width: 10em;
+
 }
 
 .container {

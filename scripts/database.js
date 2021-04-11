@@ -85,7 +85,19 @@ export const database = {
     "Fish Oil is better than Snake Oil",
     "Tell them that you love them",
     "Keep them in tepid water"
+  ],
+  quotes: [
+    {
+      quote: '"Never forget that only dead fish swim with the stream."',
+      person: "Malcom Muggeridge"
+    },
+    {
+      quote: '"Is this chicken, what I have, or is this fish? I know it\'s tuna, but it says \'Chicken of the Sea.\'"',
+      person: "Jessica Simpson"
+    },
+    {
+      quote: '"Give a man a fish and you feed him for a day; teach a man to fish and you feed him for a lifetime."',
+      person: "Maimonides"
+    }
   ]
 }
-
-console.log(database)

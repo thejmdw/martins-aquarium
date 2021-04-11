@@ -7,6 +7,7 @@
 .location {
   padding: 1em;
   border: 2px solid black;
+  border-radius: .5em;
   margin: .5em;
   background-color: white;
   color: black;
@@ -14,10 +15,12 @@
 
 .location__image {
   width: 15em;
+  border-radius: .5em;
 }
 
 .location__name {
   text-align: center;
+  font-size: 1.5em;
 }
 
 .location__fish-harvested {

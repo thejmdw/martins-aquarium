@@ -23,19 +23,20 @@ export const FishList2 = () => {
               </section>
             `
           } else {
-            htmlString += `<section class="fish card">
-            <div><img  class="fish__image image--card" src="${fish.image}" /></div>
-            <div class="fish__name">${fish.name}</div>
-            <div class="fish__species">${fish.species}</div>
-            <div class="fish__length">${fish.length/12} feet </div>
-            <div class="fish__location">${fish.location}</div>
-            <div class="fish__food">${fish.food}</div>
-        </section>
-      `
+                htmlString += `<section class="fish card">
+                  <div><img  class="fish__image image--card" src="${fish.image}" /></div>
+                  <div class="fish__name">${fish.name}</div>
+                  <div class="fish__species">${fish.species}</div>
+                  <div class="fish__length">${Math.floor(fish.length/12)} feet </div>
+                  <div class="fish__location">${fish.location}</div>
+                  <div class="fish__food">${fish.food}</div>
+              </section>
+            `
           }
+        }
     htmlString += `</article>`
-    console.log(htmlString);
+    // console.log(htmlString);
     return htmlString
     
-}
+
 }

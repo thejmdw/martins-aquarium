@@ -3,6 +3,7 @@
 import {FishList2} from './FishList2.js'
 import {LocationList} from './LocationList.js'
 import {TipsList} from './TipsList.js'
+import {QuoteList} from './QuoteList.js'
 
 /*
     What is the CSS selector for the element where you
@@ -14,9 +15,10 @@ import {TipsList} from './TipsList.js'
 const parentHTMLElementFishes = document.querySelector("#fishes")
 const parentHTMLElementLocations = document.getElementById("locations")
 const parentHTMLElementTips = document.getElementById("tips")
+const parentHTMLElementQuotes = document.getElementById("quotes")
 
 
 parentHTMLElementFishes.innerHTML = FishList2()
 parentHTMLElementLocations.innerHTML = LocationList()
 parentHTMLElementTips.innerHTML = TipsList()
-
+parentHTMLElementQuotes.innerHTML = QuoteList()
