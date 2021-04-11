@@ -3,6 +3,11 @@
   flex-wrap: wrap;
   justify-content: space-around;
 }
+.fishList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
 .fish {
   padding: 1em;
   border: 2px solid black;

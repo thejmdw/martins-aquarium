@@ -2,22 +2,31 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE-edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="">
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-  <link rel="stylesheet" type="text/css" href="./styles/main.css">
   <title>Martin's Aquarium</title>
+  
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  
+  <!-- CSS -->
+  <link rel="stylesheet" type="text/css" href="./styles/main.css">
 </head>
 <body>
+  
+  <!-- Header -->
   <header class="header border">
     <h1>Welcome to Martin's Aquarium</h1>
   </header>
+ 
+  <!-- Main -->
   <main class="container border">
+    
     
     <article class="flex-container-left border">
       <h2 class="section__title">Fishes</h2>
-      <section class="fishes border">
+      <div class="fishes border" id="fishes"></div>
+      <!-- <section class="fishes border">
         
         <div class="fish">
           <div class="fish__name">Sally</div>
@@ -79,7 +88,7 @@
           <div class="fish__location">Florida</div>
           <div class="fish__food">Steak, Grilled</div>
         </div>
-      </section>
+      </section> -->
       <h2 class="section__title">Quotes</h2>
       <section class="quotes border">
         <div class="quote">
@@ -96,7 +105,8 @@
         </div>
       </section>
       <h2 class="section__title">Locations</h2>
-      <section class="locations border">       
+      <div class="locations border" id="locations"></div>
+      <!-- <section class="locations border">       
         <div class="location">
           <div>
             <img class="location__image" src="https://www.outsideonline.com/sites/default/files/styles/img_600x600/public/2015/12/09/alaska-waterways-case_s.jpg?itok=PG7O_Ivw"/>
@@ -133,27 +143,25 @@
           <div class="location__fish-harvested">Bobby</div>
         </div>
         <div class="location">
-          <div>
-            <img class="location__image" src="<div class="location">
               <div>
                 <img class="location__image" src="https://render.fineartamerica.com/images/rendered/default/print/8/8/break/images/artworkimages/medium/2/typical-mediterranean-sea-in-italy-piola666.jpg"/>
               </div>
               <div class="location__name">Mediterranean Sea</div>
-              <div class="location__fish-harvested">Bobby</div>
-            </div>"/>
-          </div>
-      </section>
+              <div class="location__fish-harvested">Bobby</div>    
+        </div>
+      </section> -->
     </article>
-    <aside class="tips border">
+    <aside class="flex-container-right border">
       <h2 class="section__title">Tips</h2>
-      <ul>
+      <div class="tips border" id="tips"></div>
+      <!-- <ul>
         <li>Fish oil is better than snake oil.</li>
         <li>Tell them that you love them.</li>
         <li>Keep them in tepid water.</li>
-      </ul>
+      </ul> -->
     </aside>
   </main>
 
- <script src="./scripts/main.js"></script>
+ <script type="module" src="./scripts/main.js"></script>
 </body>
 </html>
