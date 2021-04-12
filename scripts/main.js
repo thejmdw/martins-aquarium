@@ -1,6 +1,6 @@
 // Import the FishList function from the correct module
-// import {FishList} from './FishList.js'
-import {FishList2} from './FishList2.js'
+import {FishList} from './FishList.js'
+// import {FishList2} from './FishList2.js'
 import {LocationList} from './LocationList.js'
 import {TipsList} from './TipsList.js'
 import {QuoteList} from './QuoteList.js'
@@ -17,8 +17,8 @@ const parentHTMLElementLocations = document.getElementById("locations")
 const parentHTMLElementTips = document.getElementById("tips")
 const parentHTMLElementQuotes = document.getElementById("quotes")
 
-
-parentHTMLElementFishes.innerHTML = FishList2()
+parentHTMLElementFishes.innerHTML = FishList()
+// parentHTMLElementFishes.innerHTML = FishList2()
 parentHTMLElementLocations.innerHTML = LocationList()
 parentHTMLElementTips.innerHTML = TipsList()
 parentHTMLElementQuotes.innerHTML = QuoteList()
